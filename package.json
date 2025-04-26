@@ -1,0 +1,26 @@
+{
+  "name": "@hugeicons/static",
+  "version": "0.1.0",
+  "description": "Static SVG files for Hugeicons",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "icons"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "hugeicons",
+    "icons",
+    "svg",
+    "static"
+  ],
+  "author": "Hugeicons",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+} 
