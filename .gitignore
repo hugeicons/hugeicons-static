@@ -1,4 +1,6 @@
 /scripts
 node_modules
 .DS_Store
-dist 
+dist
+/temp-icons
+/gc_icons 
