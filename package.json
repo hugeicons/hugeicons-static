@@ -1,6 +1,6 @@
 {
   "name": "@hugeicons/static",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Static SVG files for Hugeicons",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -26,6 +26,11 @@
   ],
   "author": "Hugeicons",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugeicons/hugeicons-static.git"
+  },
+  "homepage": "https://hugeicons.com/packages",
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/node": "^20.0.0",
@@ -37,4 +42,4 @@
     "typescript": "^5.0.0"
   },
   "type": "module"
-} 
+}
