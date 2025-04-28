@@ -1,4 +1,4 @@
-# HugeIcons Static
+# Hugeicons Static
 
 Your ultimate source for free, high-quality SVG icons—delivered as raw SVG files and JavaScript exports for maximum flexibility. Perfect for designers and developers who want to use icons in any framework, static site, or build process.
 

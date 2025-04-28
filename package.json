@@ -1,6 +1,6 @@
 {
   "name": "@hugeicons/static",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Static SVG files for Hugeicons",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -15,8 +15,7 @@
     "download": "npm run download-data && npm run download-icons",
     "process-icons": "node scripts/process-icons.mjs",
     "generate-exports": "node scripts/generate-exports.mjs",
-    "copy-svgs": "node scripts/copy-svgs.mjs",
-    "build": "npm run process-icons && npm run generate-exports && rollup -c && npm run copy-svgs",
+    "build": "npm run process-icons && npm run generate-exports && rollup -c",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
